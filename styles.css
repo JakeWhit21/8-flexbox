@@ -1,28 +1,56 @@
 html {
     background-color:rgb(255, 234, 207);
+    font-family: "Nunito", sans-serif;
 }
 
 body {
     margin: 0;
 }
 
-.site-links  {
-    list-style-type: none;
-    padding: 10px;
+.site-header {
+    background-color: rgb(252, 208, 215);
+    padding: 20px;
+}
+
+.sidebar {
+    background-color: rgb(188, 240, 188);
+    flex: 0 0 300px;
+    padding: 20px;
+}
+
+.site-main {
+    background-color: rgb(253, 253, 173);
+    padding: 20px;
+}
+
+.site-footer {
+    background-color: rgb(212, 188, 236);
+    padding: 20px;
+}
+
+.site-nav ul {
     display: flex;
-    background-color: rgb(65, 99, 65);
+    list-style-type: none;
+    gap: 20px;
 }
 
-.site-links a {
-    margin: 0 10px;
-    background-color:darkkhaki;
-    padding: 10px;
+.site-nav ul li a {
     text-decoration: none;
-    color: black;
-    display: inline-block;
-    border-radius: 10px;
 }
 
-.site-links a:hover {
-    background-color:rgb(202, 200, 165);
+.site-nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.wrapper {
+    max-width: 1000px;
+    margin: 0 auto;
+    margin-top: 10px;
+    background-color: rgb(255, 255, 255);
+}
+
+.two-col {
+    display: flex;
+    gap: 10px;
+    margin: 10px 0;
 }
